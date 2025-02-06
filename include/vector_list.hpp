@@ -160,4 +160,4 @@ class VectorList {
   size_t _capacity; /**< Capacidade da lista. */
 };
 
-#include "vector_list.tpp"
+#include "../src/vector_list.hpp"

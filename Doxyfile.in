@@ -1,0 +1,17 @@
+PROJECT_NAME           = EstruturaDeDados
+
+OUTPUT_LANGUAGE        = Portuguese
+
+OUTPUT_DIRECTORY       = ${CMAKE_BINARY_DIR}/doc
+
+INPUT                  = ${CMAKE_SOURCE_DIR}/include
+
+EXTRACT_ALL            = YES
+
+GENERATE_HTML          = YES
+
+GENERATE_LATEX         = NO
+
+FILE_PATTERNS          = *.hpp
+
+USE_MATHJAX            = YES

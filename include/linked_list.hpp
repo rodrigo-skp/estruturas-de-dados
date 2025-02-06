@@ -168,4 +168,4 @@ class LinkedList {
   size_t _size; /**< Tamanho da lista. */
 };
 
-#include "linked_list.tpp"
+#include "../src/linked_list.hpp"
