@@ -22,8 +22,8 @@ class Pair {
    * Este construtor cria um par de valores, onde o primeiro valor é do tipo `T`
    * e o segundo valor é do tipo `U`.
    *
-   * @param _first O primeiro valor do par, do tipo `T`.
-   * @param _second O segundo valor do par, do tipo `U`.
+   * @param first O primeiro valor do par, do tipo `T`.
+   * @param second O segundo valor do par, do tipo `U`.
    */
   Pair(const T& first, const U& second);
 
