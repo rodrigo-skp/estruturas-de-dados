@@ -14,7 +14,8 @@
 				"C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
 				"C_Cpp.inlayHints.referenceOperator.enabled": true,
 				"C_Cpp.inlayHints.referenceOperator.showSpace": true,
-				"C_Cpp.clang_format_fallbackStyle": "Google"
+				"C_Cpp.clang_format_fallbackStyle": "Google",
+				"cSpell.language": "en,pt"
 			},
 			"extensions": [
 				"ms-vscode.cpptools-extension-pack",
