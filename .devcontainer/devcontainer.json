@@ -1,0 +1,27 @@
+{
+	"name": "estuturaDeDados",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"containerUser": "estutura_de_dados",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.fontFamily": "'Fira Code'",
+				"editor.fontLigatures": true,
+				"C_Cpp.inlayHints.parameterNames.enabled": true,
+				"C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+				"C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+				"C_Cpp.inlayHints.referenceOperator.enabled": true,
+				"C_Cpp.inlayHints.referenceOperator.showSpace": true,
+				"C_Cpp.clang_format_fallbackStyle": "Google"
+			},
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack",
+				"KylinIdeTeam.cmake-intellisence",
+				"streetsidesoftware.code-spell-checker",
+				"streetsidesoftware.code-spell-checker-portuguese-brazilian"
+			]
+		}
+	}
+}
