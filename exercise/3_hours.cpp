@@ -36,6 +36,9 @@
  */
 
 int main() {
-  /* code */
-  return 0;
+
+  Hours a(1, 30, 0);
+
+  std::cout << "Tempo total em segundos: " << a.to_seconds(); 
+
 }

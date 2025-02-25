@@ -63,6 +63,22 @@
  */
 
 int main() {
-  /* code */
-  return 0;
+
+  const Pair<int, float> a(2, 4.5);
+  const Pair<int, float> b(2, 4);
+
+  std::cout << "Primeiro valor de A: " << a.first() << std::endl;
+  std::cout << "Segundo valor de A: " << a.second() << std::endl;
+
+  std::cout << "Primeiro valor de B: " << b.first() << std::endl;
+  std::cout << "Segundo valor de B: " << b.second() << std::endl;
+  
+  
+  if (a.operator==(b)){
+    std::cout << "Os dois pares são iguais!";
+  } else {
+    std::cout << "Os pares são diferentes!";
+  }
+
 }
+ 
